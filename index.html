@@ -1,7 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- add required and recommended <meta> tags -->
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+<meta name="description" content="Transform your life at Limitless Fitness! Website containing information about the gym Limitless Fitness.">
+
+<meta name="keyword" content="Limitless Fitness, gym">
+
+<meta name="robots" content="index, follow">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="Limitless Fitness">
+
+<meta name="twitter:description" content="Transform your life at Limitless Fitness! Website containing information about the gym Limitless Fitness.">
+
+<meta name="twitter:image" content="images/classes-768w.jpg">
+
+<meta name="twitter:site" content="@twitterHandle">
+
+<meta name="og:title" content="Limitless Fitness">
+
+<meta name="og:description" content="Transform your life at Limitless Fitness! Website containing information about the gym Limitless Fitness.">
+
+<meta name="og:image" content="images/classes-768w.jpg">
+
+<meta name="of:type" content="website">
+
+<meta name="og:site_name" content="Limitless Fitness">
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="icon" type="image/png" sizes="196x196" href="images/ICON.png">
+
+<link rel="canonical" href="https://example.com/limitless-fitness">
+
+<meta name="og:url" content="https://example.com/limitless-fitness">
+
+<link rel="alternate" hrefland="es" href="https://example.com/limitless-fitness/span">
+
+<meta name="author" content="Kaden Rose">
+
+<meta name="license" content="CC 2025">
+
+<title>Limitless Fitness</title>
 
 </head>
 <body>
@@ -87,21 +131,29 @@
         <li>Family & Group Plans: Get fit together and save more.</li>
       </ul>
       <section id="membership-form">
-        <h2>Join Limitless Fitness Today!</h2> <!-- h2 or h3 ??????????????????????????????????-->
+        <h3>Join Limitless Fitness Today!</h3>
         <p>Fill out the form below to kickstart your fitness journey:</p>
         <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
           <label for="fullName">Full Name<span class="required">*</span></label>
           <input id="fullName" name="fullName" type="text" required placeholder="First & Last">
 
-          <label for="email"Email Address</label>
-          Phone Number
-          Membership Type
-            Select a Membership Option
-            Monthly Membership
-            Annual Membership
-            Family & Group Plans
-          Tell us about your fitness goals:
-          Submit
+          <label for="email">Email Address<span class="required">*</span></label>
+          <input id="email" name="email" type="email" placeholder="example@email.com" required>
+
+          <label for="tel">Phone Number<span class="required">*</span></label>
+          <input id="tel" name="tel" type="tel" placeholder="(602)444-4444" required>
+
+          <label for="memType">Membership Type<span class="required">*</span></label>
+          <select id="memType" name="memType" required>
+            <option value="">Select a Membership Option</option>
+            <option value="monthly">Monthly Membership</option>
+            <option value="annual">Annual Membership</option>
+            <option value="famAndGroup">Family & Group Plans</option>
+          </select>
+
+          <p>Tell us about your fitness goals:</p>
+
+          <input id="submit" type="submit" value="Submit">
         </form>
         
       </section>
