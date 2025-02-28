@@ -1,0 +1,80 @@
+/* THIS CSS DESIGNED BY KADEN ROSE */
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+
+/* root variables */
+:root {
+    --blue: #007BFF;
+    --dark-green: #0b3d30;
+
+    --fontOne: "Teko", sans-serif;
+    --fontTwo: "Pridi", serif;
+}
+
+/* GLOBAL STYLES (WEB FIRST) */
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--dark-green);
+    font-family: var(--fontTwo);
+    width: 100%;
+    max-width: 1600px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headersHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+svg, h1, #unleash, #joinNow {
+    margin: 20px;
+}
+
+#joinNow {
+    background-color: var(--blue);
+    text-decoration: none;
+    color: white;
+    padding: 4px 40px;
+    border-radius: 13px;
+}
+a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:visited {
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: var(--fontOne);
+    color: var(--blue);
+    font-size: 2.5rem;
+
+}
+
+p, li, form, q {
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
