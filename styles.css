@@ -38,6 +38,12 @@ header {
     align-items: center;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 svg, h1, #unleash, #joinNow {
     margin: 20px;
 }
@@ -78,6 +84,7 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .skip {
@@ -102,4 +109,13 @@ form {
 
 .top:hover {
     font-size: 1.2rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+#sec1Foot h2 {
+    text-align: center;
 }
