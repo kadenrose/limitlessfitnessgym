@@ -93,3 +93,13 @@ form {
     top: 5px;
     font-size: 1.1rem;
 }
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.top:hover {
+    font-size: 1.2rem;
+}
